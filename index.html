@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>jQuery Exercise</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.stats').on("mouseenter", function() {
+				$(this).find(">:first-child").fadeOut('fast', function() {
+					$(this).next().fadeIn('fast');
+				});	
+			});
+			$('.stats').on("mouseleave", function() {
+				$(this).find(">:nth-child(2)").fadeOut('fast', function() {
+					$(this).prev().fadeIn('fast');
+				});
+			});
+				
+
+		})
+
+	</script>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1 id="yella">X-MEN</h1>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 stats">
+				<img class="profpix" src="assets/img/cyclops.png" alt="Cyclops">
+				<img class="statpix" src="assets/img/cyclops_back.png" alt="Cyclops Stats">
+			</div>
+			<div class="col-md-3 stats">
+				<img class="profpix" src="assets/img/nightcrawler.png" alt="Nightcrawler">
+				<img class="statpix" src="assets/img/nightcrawler_back.png" alt="Nightcrawler Stats">
+			</div>
+			<div class="col-md-3 stats">
+				<img class="profpix" src="assets/img/shadowcat.png" alt="Shadowcat">
+				<img class="statpix" src="assets/img/shadowcat_back.png" alt="Shadowcat stats">
+			</div>
+			<div class="col-md-3 stats">
+				<img class="profpix" src="assets/img/iceman.png" alt="Iceman">
+				<img class="statpix" src="assets/img/iceman_back.png" alt="Iceman Stats">
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

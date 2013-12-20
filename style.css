@@ -1,0 +1,59 @@
+#yella{
+	color: #FEEF4F;
+	text-shadow: 3px 3px black;
+
+}
+
+.stats{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	/*width: 220px;*/
+	height: 302px;
+	/*z-index: 3;*/
+}
+
+.second{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	/*width: 220px;*/
+	/*height: 400px;*/
+}
+
+.third{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	/*width: 230px;*/
+	/*height: 400px;*/
+}
+
+.fourth{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	/*width: 230px;*/
+	/*height: 400px;*/	
+}
+
+.profpix{
+	width: 220px;
+	height: auto;
+}
+
+.statpix{
+	width: 220px;
+	display: none;
+	/*z-index: 2;*/
+}
+
+
+.stats{
+
+}
+
+.jumbotron{
+	background-color: #F33847;
+}
+
